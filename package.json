@@ -1,0 +1,36 @@
+{
+  "name": "stay-fresh-lsp-proxy",
+  "version": "0.1.0",
+  "description": "A Claude Code plugin that proxies any LSP server and filters stale/noisy diagnostics from conversation context",
+  "type": "module",
+  "main": "dist/proxy.js",
+  "bin": {
+    "stay-fresh-lsp-proxy": "dist/proxy.js",
+    "stay-fresh-setup": "dist/setup.js"
+  },
+  "files": [
+    "dist/",
+    "plugins/",
+    ".claude-plugin/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest"
+  },
+  "keywords": [
+    "claude-code",
+    "lsp",
+    "proxy",
+    "diagnostics",
+    "plugin"
+  ],
+  "author": "acreeger",
+  "license": "MIT",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}

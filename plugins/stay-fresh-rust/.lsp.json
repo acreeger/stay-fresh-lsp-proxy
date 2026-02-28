@@ -1,0 +1,9 @@
+{
+  "rust": {
+    "command": "stay-fresh-lsp-proxy",
+    "args": ["rust-analyzer"],
+    "extensionToLanguage": {
+      ".rs": "rust"
+    }
+  }
+}

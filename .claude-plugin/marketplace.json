@@ -1,0 +1,25 @@
+{
+  "name": "stay-fresh-lsp-proxy",
+  "description": "LSP proxy plugins that filter diagnostic noise from Claude Code",
+  "owner": { "name": "acreeger" },
+  "plugins": [
+    {
+      "name": "stay-fresh-typescript",
+      "source": "./plugins/stay-fresh-typescript",
+      "description": "TypeScript/JavaScript LSP with diagnostic filtering",
+      "version": "0.1.0"
+    },
+    {
+      "name": "stay-fresh-python",
+      "source": "./plugins/stay-fresh-python",
+      "description": "Python (Pyright) LSP with diagnostic filtering",
+      "version": "0.1.0"
+    },
+    {
+      "name": "stay-fresh-rust",
+      "source": "./plugins/stay-fresh-rust",
+      "description": "Rust LSP with diagnostic filtering",
+      "version": "0.1.0"
+    }
+  ]
+}

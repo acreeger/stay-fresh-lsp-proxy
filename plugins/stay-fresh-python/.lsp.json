@@ -1,0 +1,9 @@
+{
+  "python": {
+    "command": "stay-fresh-lsp-proxy",
+    "args": ["pyright-langserver", "--stdio"],
+    "extensionToLanguage": {
+      ".py": "python"
+    }
+  }
+}
